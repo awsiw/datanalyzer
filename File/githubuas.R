@@ -5,9 +5,9 @@ library(ggplot2)
 library(lmtest)
 
 #Import data 
-data_income <- read_excel("C:/Users/wiswa/OneDrive/Desktop/bpsdata.xlsb.xlsx", sheet = "income", na = "NA")
+data_income <- read_excel("File/bpsdata.xlsb.xlsx", sheet = "income", na = "NA")
 
-data_education <- read_excel("C:/Users/wiswa/OneDrive/Desktop/bpsdata.xlsb.xlsx", sheet = "education", na = "NA")
+data_education <- read_excel("File/bpsdata.xlsb.xlsx", sheet = "education", na = "NA")
 
 data_all <- data.frame(
   Provinsi = data_income[5:42, 2],
